@@ -5,7 +5,7 @@ Projeto para a entrega de java advanced da global solution.
 ## Tecnologias
 
  - [Java 17](https://docs.oracle.com/en/java/javase/17/)
- - [Gradle](https://gradle.org/)
+ - [Maven](https://maven.apache.org/)
  - [Spring Boot 3.2.5](https://spring.io/projects/spring-boot)
  - [Spring Data JPA](https://docs.spring.io/spring-data/jpa/reference/)
  - [Spring Web Starter](https://docs.spring.io/spring-boot/reference/web/index.html)
