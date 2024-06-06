@@ -41,7 +41,7 @@ Projeto para a entrega de java advanced da global solution.
 #### Gravar usuario (save)
 
 ```http
-  POST /usuario
+  POST /usuarios
 ```
 
 Body:
