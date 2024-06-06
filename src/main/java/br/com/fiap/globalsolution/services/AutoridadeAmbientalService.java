@@ -40,8 +40,8 @@ public class AutoridadeAmbientalService {
         if (autoridadeambientalOptional.isPresent()) {
             AutoridadeAmbiental autoridadeambientalUpdate = autoridadeambientalOptional.get();
             autoridadeambientalUpdate.setNome(autoridadeambiental.getNome());
-            autoridadeambientalUpdate.setCargo(autoridadeambiental.getCargo());
             autoridadeambientalUpdate.setTipo(autoridadeambiental.getTipo());
+            autoridadeambientalUpdate.setCargo(autoridadeambiental.getCargo());
             autoridadeambiental = autoridadeambientalRepository.save(autoridadeambientalUpdate);
             return autoridadeambiental;
         }

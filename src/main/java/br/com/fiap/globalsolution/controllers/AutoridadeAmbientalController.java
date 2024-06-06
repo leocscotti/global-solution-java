@@ -27,7 +27,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @RestController
-@RequestMapping(value = "/autoriadesambientais", produces = {"application/json"})
+@RequestMapping(value = "/autoridadesambientais", produces = {"application/json"})
 @Tag(name = "api-autoridadesambientais")
 
 public class AutoridadeAmbientalController {
