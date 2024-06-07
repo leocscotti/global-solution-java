@@ -283,7 +283,7 @@ Body:
 ```json
 {
     "nome": "leonardo",
-    "tipo": "agro",
+    "tipo": "marinha",
     "cargo": "coordenador"
 }
 ```
@@ -309,7 +309,7 @@ Body:
 ```json
 {
     "nome": "leonardo",
-    "tipo": "agro",
+    "tipo": "marinha",
     "cargo": "coordenador"
 }
 ```
