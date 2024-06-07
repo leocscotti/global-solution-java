@@ -20,8 +20,7 @@ Projeto para a entrega de java advanced da global solution.
 
  - [IntelliJ](https://www.jetbrains.com/pt-br/idea/)
  - [Postman](https://www.postman.com/)
- - 
-  -[Visual Studio Code](https://code.visualstudio.com/)
+ -[Visual Studio Code](https://code.visualstudio.com/)
  
 ## API Reference
 
