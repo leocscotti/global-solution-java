@@ -1,6 +1,5 @@
 package br.com.fiap.globalsolution.models;
 
-import java.time.LocalDateTime;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
@@ -22,10 +21,6 @@ public class Denuncia {
     @NotBlank(message = "A descrição é obrigatória")
     @Column(name = "descricao")
     private String descricao;
-
-    @NotBlank(message = "a data é obrigatória")
-    @Column(name = "dt_ocorrencia")
-    private LocalDateTime dataOcorrencia;
 
     @NotBlank(message = "A situação é obrigatória")
     @Column(name = "situacao")

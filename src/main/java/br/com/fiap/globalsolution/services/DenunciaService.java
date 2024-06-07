@@ -40,7 +40,6 @@ public class DenunciaService {
         if (denunciaOptional.isPresent()) {
             Denuncia denunciaUpdate = denunciaOptional.get();
             denunciaUpdate.setDescricao(denuncia.getDescricao());
-            denunciaUpdate.setDataOcorrencia(denuncia.getDataOcorrencia());
             denunciaUpdate.setSituacao(denuncia.getSituacao());
             denunciaUpdate.setLocalizacao(denuncia.getLocalizacao());
             denuncia = denunciaRepository.save(denunciaUpdate);

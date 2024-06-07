@@ -1,8 +1,8 @@
 package br.com.fiap.globalsolution.models;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -27,7 +27,7 @@ public class Residuo {
     @Column(name = "tipo")
     private String tipo;
 
-    @Size(min=2, message = "a quantidade deve ter no minimo 2 digitos")
+    @Min (value= 2, message = "a quantidade deve ter no minimo 2 digitos")
     @Column(name = "quantidade")
     private int quantidade;
 

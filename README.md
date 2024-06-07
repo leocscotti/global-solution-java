@@ -125,7 +125,6 @@ Body:
 ```json
 {
     "descricao": "descarte de lixo",
-    "dataOcorrencia": "03/05",
     "situacao": "ativa",
     "localizacao": "praia do rosa"
 }
@@ -134,7 +133,6 @@ Body:
 | Parâmetro | Tipo     | Descrição                       |
 |:----------|:---------|:--------------------------------|
 | `descricao`    | `String` | Tipo da denuncia a ser gravada   |
-| `dataOcorrencia`   | `LocalDateTime` | data da ocorrencia da denuncia a ser gravada |
 | `situacao`   | `String` | situacao da denuncia a ser gravada  |
 | `localizacao`   | `String` | localizacao da denuncia a ser gravada |
 
@@ -153,7 +151,6 @@ Body:
 ```json
 {
    "descricao": "descarte de lixo",
-    "dataOcorrencia": "03/05",
     "situacao": "ativa",
     "localizacao": "praia do rosa"
 }
@@ -162,7 +159,6 @@ Body:
 | Parâmetro | Tipo     | Descrição                          |
 |:----------|:---------|:-----------------------------------|
 | `descricao`    | `String` | Tipo da denuncia a ser gravada   |
-| `dataOcorrencia`   | `LocalDateTime` | data da ocorrencia da denuncia a ser gravada |
 | `situacao`   | `String` | situacao da denuncia a ser gravada  |
 | `localizacao`   | `String` | localizacao da denuncia a ser gravada |
 
